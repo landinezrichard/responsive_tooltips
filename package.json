@@ -7,6 +7,10 @@
   "scripts": {
     "build-js": "browserify -r ./dev/index.js:tooltips -t babelify -o index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/landinezrichard/responsive_tooltips.git"
+  },
   "author": "Ricardo Landínez <landinezrichard@gmail.com>",
   "license": "MIT",
   "dependencies": {
