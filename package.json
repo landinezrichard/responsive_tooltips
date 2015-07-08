@@ -1,0 +1,19 @@
+{
+  "name": "responsive_tooltips",
+  "version": "1.0.0",
+  "description": "Utility for easy creation of tooltips that also work on mobile devices",
+  "main": "index.js",
+  "style": "estilos.css",
+  "scripts": {
+    "build-js": "browserify -r ./dev/index.js:tooltips -t babelify -o index.js"
+  },
+  "author": "Ricardo Landínez <landinezrichard@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.4"
+  }
+}

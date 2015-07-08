@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Prueba tooltips</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>	
+	<abbr title="User Experience" rel="tooltip">UX</abbr>
+	<p>You just need to indicate the tooltip in the attribute "title", and add the attribute "rel" with the value "tooltip" on the label (with inline display) to which you apply the tooltip.</p>
+	<p>Solo necesitas indicar el tooltip en el atributo "título", y añadir el atributo "rel" con el valor "tooltip" a la etiqueta (con display inline) a la cual se le aplicara el tooltip.</p>
+	<abbr title="PRUEBA CLICK" rel="tooltip">ACAAAAAAAA</abbr>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim beatae odio cupiditate, quaerat eligendi error. Atque quia eaque pariatur, ut excepturi explicabo corporis quae harum doloribus perspiciatis quos ipsum saepe.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, error iste quam dolor, officiis veniam, libero obcaecati itaque aliquid laborum ad omnis, nisi culpa repellendus vitae. Quisquam modi assumenda aut!</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit a dolorum facilis aliquid ut laboriosam explicabo facere error rerum numquam quos delectus id dolore eos veritatis et dolorem, perspiciatis velit!</p>
+	<abbr title="tooltip message!!!" rel="tooltip">Click or hover Here to show</abbr>	
+	<script src="index.js"></script>
+	<script type="text/javascript">
+		var Tooltips = require('tooltips');
+		Tooltips.init_tooltip();
+	</script>
+</body>
+</html>
